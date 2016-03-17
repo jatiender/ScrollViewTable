@@ -1,0 +1,6 @@
+framework module Pods_ScrollViewTable_Tests {
+  umbrella header "Pods-ScrollViewTable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

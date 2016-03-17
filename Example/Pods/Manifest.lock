@@ -1,0 +1,14 @@
+PODS:
+  - ScrollViewTable (0.1.0)
+
+DEPENDENCIES:
+  - ScrollViewTable (from `../`)
+
+EXTERNAL SOURCES:
+  ScrollViewTable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ScrollViewTable: f487e0e2b89a8a78ee07f4011e5e3227892eab29
+
+COCOAPODS: 0.39.0
