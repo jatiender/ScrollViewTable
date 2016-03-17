@@ -30,4 +30,4 @@ JKTableView, jitu94186@gmail.com
 ScrollViewTable is available under the MIT license. See the LICENSE file for more info.
 =======
 # ScrollViewTable
->>>>>>> 1b35157436fee70f1198546c1dafa7436738e252
+>>>>>>> ScrollViewTable is Just like UitableView. You can used instead of uitableview This is Used simply like UitableView. This is manulaly deque every cell like uitable view.just import pod or library in your project and write Delegate or data source method and design your custom cell So its essay to used ....Happy coding...enjoy to use this
