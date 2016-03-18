@@ -11,6 +11,24 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+#### import both data sources for used this control 
+- (NSInteger)numberOfItemsInRecyclingScrollView:(JKScrollCell *)scrollView {
+
+return 200;
+}
+
+
+- (UIView *)recyclingScrollView:(JKScrollCell *)scrollView
+cellForItemAtIndex:(NSInteger)index {
+
+UIImageView *cell = [scrollView dequeueReusableCell];
+if (!cell) {
+cell = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 235)];
+}
+return cell;
+}
+
+
 
 ## Installation
 
