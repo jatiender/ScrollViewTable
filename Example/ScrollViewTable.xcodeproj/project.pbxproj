@@ -13,6 +13,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		CA57A5C61C9C0E4D000888FE /* ScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA57A5C51C9C0E4D000888FE /* ScrollCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		9B6092257627608B597FF0CF /* Pods-ScrollViewTable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewTable_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollViewTable_Tests/Pods-ScrollViewTable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C34F60739E3D1DEAC7A0FB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B4EEEF77084EC4EB56FA6DC1 /* Pods_ScrollViewTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollViewTable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA57A5C41C9C0E4D000888FE /* ScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollCell.h; sourceTree = "<group>"; };
+		CA57A5C51C9C0E4D000888FE /* ScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollCell.m; sourceTree = "<group>"; };
 		F4295BCF273525D899FAD976 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F87177A887EE92D91DDA4D42 /* ScrollViewTable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ScrollViewTable.podspec; path = ../ScrollViewTable.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,6 +54,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				CA57A5C41C9C0E4D000888FE /* ScrollCell.h */,
+				CA57A5C51C9C0E4D000888FE /* ScrollCell.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -237,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA57A5C61C9C0E4D000888FE /* ScrollCell.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
