@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "ScrollViewTable"
   s.version          = "0.1.0"
-  s.summary          = "A great pod developed in zakoopi labs by Jitiender."
+  s.summary          = "A great pod To USed For Creating UITableView On scrollview"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                       New Pod created to create scroll Something Really good to use by Mr. Jitiender
+                       ScrollViewTable is Just like UitableView. You can used instead of uitableview This is Used simply like UitableView. This is manulaly deque every cell like uitable view.just import pod or library in your project and write Delegate or data source method and design your custom cell So its essay to used ....Happy coding...enjoy to use this
 			DESC
 
   s.homepage         = "https://github.com/jatiender/ScrollViewTable"

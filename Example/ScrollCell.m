@@ -7,7 +7,7 @@
 //
 
 #import "ScrollCell.h"
-
+#import <ScrollViewTable.xcodeproj/>
 @implementation ScrollCell
 
 /*

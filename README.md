@@ -6,11 +6,21 @@
 [![License](https://img.shields.io/cocoapods/l/ScrollViewTable.svg?style=flat)](http://cocoapods.org/pods/ScrollViewTable)
 [![Platform](https://img.shields.io/cocoapods/p/ScrollViewTable.svg?style=flat)](http://cocoapods.org/pods/ScrollViewTable)
 
+
+
+## Installation
+
+ScrollViewTable is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "ScrollViewTable"
+```
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## How To Using
 #### import both data sources for used this control 
 - (NSInteger)numberOfItemsInRecyclingScrollView:(JKScrollCell *)scrollView {
 
@@ -28,16 +38,6 @@ cell = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.
 return cell;
 }
 
-
-
-## Installation
-
-ScrollViewTable is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "ScrollViewTable"
-```
 
 ## Author
 
