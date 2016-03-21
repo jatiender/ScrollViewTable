@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC4493521A6E81427ED1CB9BA2341742"
-               BuildableName = "ScrollViewTable.framework"
-               BlueprintName = "ScrollViewTable"
+               BlueprintIdentifier = "B2CDA1BB67881AE9B3CE94E128670B64"
+               BuildableName = "ScrollViewTable.bundle"
+               BlueprintName = "ScrollViewTable-ScrollViewTable"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC4493521A6E81427ED1CB9BA2341742"
-            BuildableName = "ScrollViewTable.framework"
-            BlueprintName = "ScrollViewTable"
+            BlueprintIdentifier = "B2CDA1BB67881AE9B3CE94E128670B64"
+            BuildableName = "ScrollViewTable.bundle"
+            BlueprintName = "ScrollViewTable-ScrollViewTable"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
